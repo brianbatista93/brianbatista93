@@ -19,6 +19,9 @@ jobs:
           # Options
           user: brianbatista93
           config_timezone: America/Sao_Paulo
+          use_prebuilt_image: yes
+          config_gemoji: yes
+          template: classic
           
           # base
           base: header, activity, repositories, metadata
